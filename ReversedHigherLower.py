@@ -18,8 +18,6 @@ def game_round():	# Higher or Lower Game starts here
 	from random import randint
 	known_number = randint(1, 1000)
 	hidden_number = randint(1, 1000)
-	##to avoid bugs
-	known_number != hidden_number
 	print("Current Number: " + str(known_number))
 	userGuess = input("Will the next number be higher (+) or lower (-)? ")
 	##'higher' response
